@@ -13,7 +13,7 @@ variables:
   dockerRegistryServiceConnection: '33c70a63-4882-4d05-94d4-d2ba9d8f8de0'
   imageRepository: 'wbingcsharpood'
   containerRegistry: 'registryitproject.azurecr.io'
-  dockerfilePath: '$(Build.SourcesDirectory)/Csharp.OOD/Csharp.OOD/Dockerfile'
+  dockerfilePath: '$(Build.SourcesDirectory)/Csharp.OOD/Dockerfile'
   tag: '$(Build.BuildId)'
   
   # Agent VM image name
