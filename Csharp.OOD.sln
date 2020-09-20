@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30406.217
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Csharp.OOD", "Csharp.OOD\Csharp.OOD.csproj", "{240A9CCD-F736-4965-B7C5-D399370FEF3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Csharp.OOD.Test", "Csharp.OOD.Test\Csharp.OOD.Test.csproj", "{529AE199-1A73-47B4-B77E-EAFF29DB8841}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Csharp.OOD.Test", "Csharp.OOD.Test\Csharp.OOD.Test.csproj", "{529AE199-1A73-47B4-B77E-EAFF29DB8841}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -7,7 +7,7 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1-buster AS build
 WORKDIR /src
-COPY ["Csharp.OOD/Csharp.OOD.csproj", "Csharp.OOD/"]
+COPY . Csharp.OOD/
 RUN dotnet restore "Csharp.OOD/Csharp.OOD.csproj"
 COPY . .
 WORKDIR "/src/Csharp.OOD"
